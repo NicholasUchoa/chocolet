@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Truffles — ChocoLet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="index.html" class="logo">ChocoLet</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="shop.html" class="current">Shop</a></li>
+      <li><a href="gifting.html">Gifting</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="cart.html" class="nav-cart">Cart (0)</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="index.html">Home</a> / Shop</p>
+    <h1>All truffles</h1>
+  </div>
+</div>
+
+<section class="section" style="padding-top:2.5rem;">
+  <div class="wrap shop-layout">
+
+    <aside class="filters reveal">
+      <div class="filter-group">
+        <h4>Type</h4>
+        <div class="chip-list">
+          <label class="chip"><input type="checkbox"><span class="dot" style="background:var(--vanilla-bean)"></span>Dark</label>
+          <label class="chip"><input type="checkbox"><span class="dot" style="background:var(--cocoa-dust)"></span>Milk</label>
+          <label class="chip"><input type="checkbox"><span class="dot" style="background:var(--pistachio)"></span>Pistachio</label>
+          <label class="chip"><input type="checkbox"><span class="dot" style="background:var(--raspberry)"></span>Ruby</label>
+          <label class="chip"><input type="checkbox"><span class="dot" style="background:var(--champagne)"></span>Champagne</label>
+        </div>
+      </div>
+      <div class="filter-group">
+        <h4>Collection</h4>
+        <div class="chip-list">
+          <label class="chip"><input type="checkbox" checked> Classic 9</label>
+          <label class="chip"><input type="checkbox"> Vegan Line</label>
+          <label class="chip"><input type="checkbox"> Champagne Selection</label>
+          <label class="chip"><input type="checkbox"> Build Your Own</label>
+        </div>
+      </div>
+      <div class="filter-group">
+        <h4>Box size</h4>
+        <div class="chip-list">
+          <label class="chip"><input type="checkbox"> 4 pieces</label>
+          <label class="chip"><input type="checkbox"> 9 pieces</label>
+          <label class="chip"><input type="checkbox"> 16 pieces</label>
+        </div>
+      </div>
+    </aside>
+
+    <div>
+      <div class="results-bar reveal">
+        <span>8 collections</span>
+        <span>Sorted by: Most loved</span>
+      </div>
+      <div class="product-grid">
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--dark">Dark · 72%</span><span class="card-name">Sea Salt Nib · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$28.80</span><span class="card-note">Crushed cacao nib, flaked salt</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--milk">Milk · Caramel</span><span class="card-name">Dulce Leticia · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$28.80</span><span class="card-note">Family recipe, salted caramel</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--pistachio">Pistachio</span><span class="card-name">Sicilian Green · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$30.60</span><span class="card-note">Roasted pistachio, white ganache</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--ruby">Ruby</span><span class="card-name">Berry Bloom · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$29.70</span><span class="card-note">Tart raspberry, no added fruit</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--champagne">Champagne</span><span class="card-name">Midnight Toast · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$34.20</span><span class="card-note">Rosé ganache, gold dust</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--dark">Dark · Vegan</span><span class="card-name">Cacao Purist · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$28.80</span><span class="card-note">Oat ganache, 80% dark shell</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--milk">Milk · Hazelnut</span><span class="card-name">Avelã Toasted · Box of 9</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">$29.70</span><span class="card-note">Toasted hazelnut praline</span></div>
+        </a>
+
+        <a href="product.html" class="card reveal">
+          <div class="card-top"><span class="tag tag--dark">Build Your Own</span><span class="card-name">Mixed Box · 4, 9 or 16</span></div>
+          <div class="dust"></div>
+          <div class="card-reveal"><span class="card-price">from $12.80</span><span class="card-note">Pick every flavor yourself</span></div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-signature signature">Leticia</span>
+        <div class="footer-logo">ChocoLet</div>
+        <p style="font-size:.8rem; opacity:.7; max-width:26ch;">Handrolled truffles, made in small batches in Rio de Janeiro. Shipping nationwide.</p>
+      </div>
+      <div><h4>Shop</h4><ul><li><a href="shop.html">All truffles</a></li><li><a href="product.html">Build a box</a></li><li><a href="gifting.html">Gifting</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">Our story</a></li><li><a href="about.html">Sustainability</a></li></ul></div>
+      <div><h4>Support</h4><ul><li><a href="faq.html">FAQ</a></li><li><a href="faq.html">Shipping</a></li><li><a href="cart.html">Cart</a></li></ul></div>
+      <div><h4>Follow</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">TikTok</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ChocoLet. All rights reserved.</span>
+      <span>Direct trade · Hand-rolled · Recyclable packaging</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

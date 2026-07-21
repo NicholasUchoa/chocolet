@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart — ChocoLet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="index.html" class="logo">ChocoLet</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="gifting.html">Gifting</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="cart.html" class="nav-cart">Cart (2)</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header" style="padding-block:2rem 1.5rem;">
+  <div class="wrap"><h1>Your cart</h1></div>
+</div>
+
+<section class="section" style="padding-top:1rem;">
+  <div class="wrap cart-layout">
+
+    <div class="reveal">
+      <div class="shipping-progress">
+        <span id="progressLabel">You're $28.20 away from free shipping</span>
+        <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%;"></div></div>
+      </div>
+
+      <div class="cart-item" data-price="28.80">
+        <div class="cart-thumb"></div>
+        <div>
+          <div class="cart-name">Dulce Leticia · Box of 9</div>
+          <div class="cart-meta">Milk chocolate, salted caramel</div>
+          <a href="#" class="remove-link">Remove</a>
+        </div>
+        <div class="stepper"><button class="minus" aria-label="Decrease quantity">−</button><span class="qty">1</span><button class="plus-btn" aria-label="Increase quantity">+</button></div>
+        <div class="cart-price">$28.80</div>
+      </div>
+
+      <div class="cart-item" data-price="3.80">
+        <div class="cart-thumb"></div>
+        <div>
+          <div class="cart-name">Midnight Toast · Single</div>
+          <div class="cart-meta">Champagne, rosé ganache</div>
+          <a href="#" class="remove-link">Remove</a>
+        </div>
+        <div class="stepper"><button class="minus" aria-label="Decrease quantity">−</button><span class="qty">2</span><button class="plus-btn" aria-label="Increase quantity">+</button></div>
+        <div class="cart-price">$7.60</div>
+      </div>
+
+      <div style="margin-top:1.5rem;">
+        <a href="shop.html" class="btn btn-ghost btn-sm" style="color:var(--cacao-noir); border-color:var(--line);">← Continue shopping</a>
+      </div>
+    </div>
+
+    <div class="summary-card reveal">
+      <h3 style="font-style:italic; font-size:1.2rem; margin-bottom:1.2rem;">Order summary</h3>
+      <div class="summary-row"><span>Subtotal</span><span id="subtotalValue">$0.00</span></div>
+      <div class="summary-row"><span>Shipping</span><span>Calculated at checkout</span></div>
+      <div class="promo-row">
+        <input type="text" placeholder="Promo code">
+        <button class="btn btn-dark btn-sm">Apply</button>
+      </div>
+      <div class="summary-row total"><span>Total</span><span id="totalValue">$0.00</span></div>
+      <a href="checkout.html" class="btn btn-primary btn-block" style="margin-top:1rem;">Checkout</a>
+      <p style="font-size:.72rem; opacity:.55; text-align:center; margin-top:.8rem;">Taxes calculated at checkout · Free returns within 14 days</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2026 ChocoLet. All rights reserved.</span>
+      <span><a href="faq.html">FAQ</a> · <a href="about.html">Our story</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
